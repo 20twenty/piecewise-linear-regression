@@ -1,5 +1,7 @@
-src
-.git
-.gitignore
-.npmignore
-tsconfig.json
+# src
+# .git
+# .gitignore
+# .npmignore
+# tsconfig.json
+# dist/__tests__
+/dist/__tests__

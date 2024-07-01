@@ -1,12 +1,14 @@
 {
   "name": "piecewise-linear-regression",
-  "version": "1.0.0",
+  "version": "2.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && tsc",
     "disttest": "npm run build && jest --config jest.dist.config.js",
-    "srctest": "jest --config jest.src.config.js"
+    "srctest": "jest --config jest.src.config.js",
+    "pub-dry-run": "npm run build && npm publish --dry-run",
+    "pub": "npm run build && npm publish"
   },
   "keywords": [],
   "author": {
@@ -29,5 +31,13 @@
   "files": [
     "/dist",
     "!dist/__tests__"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/20twenty/piecewise-linear-regression/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/20twenty/piecewise-linear-regression.git"
+  },
+  "homepage": "https://github.com/20twenty/piecewise-linear-regression#readme"
 }

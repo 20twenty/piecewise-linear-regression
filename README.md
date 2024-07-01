@@ -1,7 +1,3 @@
-Here's a README for your npm package `piecewise-linear-regression`:
-
----
-
 # piecewise-linear-regression
 
 A TypeScript implementation of piecewise linear regression with cross-validation and grid search to determine the optimal number of knots.
